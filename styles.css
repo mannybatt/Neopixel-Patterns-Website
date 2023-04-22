@@ -1,0 +1,78 @@
+
+
+.bodyFont {
+    max-width: 720px;
+    margin: auto;
+    font-family: Tahoma;
+    text-align: center;
+    color: white;
+}
+
+.rainbow-text {
+    background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    background-size: 40% 40%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Avantgarde;
+    font-size: 60pt;
+    animation: rainbow 5s ease infinite;
+  }
+  @keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position: 0% 50%}
+}
+
+.patternFormatting{
+    padding-top: 50px;
+}
+
+.patternFormatting2{
+    padding-bottom: 50px;
+}
+
+.fireFlies{
+    
+    font-size: 100px;
+    font-family: Avantgarde;
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: url("snow.gif") repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.codeBox {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #65ac08;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+.patternDescriptionFont{
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+body {
+    padding-top: 30px;
+    background-image: url("rgbWallpaper.jpg");
+    background-color: #000000;
+    background-position: center;
+    background-attachment: fixed;
+   }
+

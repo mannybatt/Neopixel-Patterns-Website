@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>NeoPixel Patterns</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body class="bodyFont">
+    <script src="pixel.js" type="text/javascript"></script>
+    <h1 class="rainbow-text">NeoPixel Patterns</h1>
+    <div>
+        <h2>This is a website for displaying the various NeoPixel patterns I've created!</h2>
+        <h3>What exactly are <i>NeoPixels?</i></h3>
+        <p>
+            Neopixels are individually addressable RGB LED's designed with a
+            world of flexibillity and creativity in mind. There are numerous
+            models and revisions to the formula but the most common tools of
+            the trade are the WS2811 LEDS as well as an ESP8266 microcontroller
+            for driving the LEDS (because wireless updates are the best, right?).
+        </p>
+        <h3>Here are a few of my patterns! Feel free to adapt the code for your own projects :)</h3>
+    </div>
+    <div class="patternFormatting2">
+        <h2 class="fireFlies">Fireflies</h2>
+        <video width="640" height="360" controls>
+            <source src="FireFliesExample.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h3 class="patternDescriptionFont">This pattern simulates colorful fireflies popping in and slowly fading out.
+        </h3>
+        <p class="codeBox">
+            <object id="fireFliesCode" width="95%" height="300px" class="codeBox" data="FireFlies.txt"
+                style="overflow: hidden;"></object>
+        </p>
+        <button type="button" value="Download" onclick="downloadFireflies()">Click to see only FireFlies</button>
+    </div>
+    <img src="star.png" alt="Star" height="200" width="200">
+</body>
+</html>
